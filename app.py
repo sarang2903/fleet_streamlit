@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Global Fleet Dashboard", page_icon="✈️", layout="wide")
 
 # Load Data
-df = pd.read_csv("../DataSets/Global_Fleet.csv")
+df = pd.read_csv("Global_Fleet.csv")
 
 # Title
 st.title("✈️ Global Fleet Dashboard")
